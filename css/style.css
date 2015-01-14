@@ -298,6 +298,20 @@ div.title h1 span {
 .actions_container .btn_yellow {
 	margin-top: 20px;
 }
+
+/* Menu
+------------------------------------------------------------------------------------ */
+.menu_container {
+	text-align: center;
+}
+.menu_container a img {
+	border: 2px solid #fff;
+	margin-left: -4px;
+}
+.menu_container a:hover {
+	opacity: .7;
+}
+
 /* Contacts
 ------------------------------------------------------------------------------------ */
 .contacts {
