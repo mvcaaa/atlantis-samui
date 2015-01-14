@@ -7,6 +7,14 @@
          url('../fonts/ArialNarrow Bold.otf') format('otf');
 }
 @font-face {
+    font-family: 'ArialNarrow-Regular';
+    src: url('../fonts/ArialNarrow Regular.eot');
+    src: url('../fonts/ArialNarrow Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ArialNarrow Regular.woff') format('woff'),
+         url('../fonts/ArialNarrow Regular.ttf') format('truetype'),
+         url('../fonts/ArialNarrow Regular.otf') format('otf');
+}
+@font-face {
     font-family: 'minionpro-regular';
     src: url('../fonts/minionpro-regular.eot');
     src: url('../fonts/minionpro-regular.eot?#iefix') format('embedded-opentype'),
