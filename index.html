@@ -66,7 +66,7 @@
                   </div>
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                      <li class="active"><a href="#">ATLANTIS</a></li>                                                                     
+                      <li class="active"><a href="#">ATLANTIS</a></li>
                       <li><a href="#">НОВОСТИ</a></li>
                       <li><a href="#">АКЦИИ</a></li>
                       <li><a href="#">МЕНЮ</a></li>
@@ -82,38 +82,72 @@
         </div>
       </div>
     </div><!-- Header end -->
+
     <div class="slider_container">
-      <div class="container">
-        <div class="slider">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="img/slide1.jpg" alt="...">             
-              </div>
-              <div class="item">
-                <img src="img/slide2.jpg" alt="...">              
-              </div>
-               <div class="item">
-                <img src="img/slide3.jpg" alt="...">             
-              </div>
+      <div class="slider container">
+        <div class="row">
+          <div class="col-lg-12">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="img/slide1.jpg" alt="...">
+                  </div>
+                  <div class="item">
+                    <img src="img/slide2.jpg" alt="...">
+                  </div>
+                   <div class="item">
+                    <img src="img/slide3.jpg" alt="...">
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+
+                </a>
             </div>
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"></a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"></a>
           </div>
-          <img src="img/shadow.png" class="shadow">
         </div>
+        <img src="img/shadow.png" class="shadow">
       </div>
-    </div><!-- end slider -->
-    <div class="container news_container">
-      <div class="row">
+    </div><!-- Slider end-->
+
+    <div class="container">
+
+        <div class="row welcome_container">
+          <div class="col-lg-12">
+            <div class="title"><h1><span>ATLANTIS</span></h1></div>
+          </div>
+          <div class="col-lg-7 welcome_content">
+            <p><span>Добро пожаловать</span> в  семейный реcторан  Атлантис!</p>
+            <p>Это первый ресторан со специально оборудованной <span>детской зоной</span> на острове Самуи. Здесь все создано для того чтобы Вы почуствовали себя в Раю и насладились Вашим отдыхом.Мы всегда рады предложить  нашим гостям  <span>разнообразное  меню, богатую коктейльную карту, две зоны караоке, кальян, различные вечерние программы.</span> Для детей специальные развлекательные программы с <span>аниматором, школа рисования и подвижные игры.</span> Наша площадка оборудована безопасным детским батутом, домиком-шалашом с русскими мультфильмами и живым уголком с говорящим попугаем. </p>
+            <p><span>Большая и удобная зона парковки</span> решит проблему безопасности узких улиц острова. Мы проводим различные мероприятия начиная от детских дней рождения, корпоративных праздников, заканчивая грандиозными свадьбами. Приходите к нам, наши демократичные цены обязательно обрадуют Вас!</p>
+            <p><span>Ждем Вас ежедневно с 12:00 и до последнего гостя.</span><br><span>ЗВОНИТЕ НАМ.: +66907069528</span><br>Наш адрес: Soi Had Chaweng 1 80/6 Bophut, Koh Samui, Suratthani, 84320Координаты ресторана на картах google 9.510873,100.054845</p>
+          </div>
+          <div class="col-lg-5 order clearfix">
+            <ul class="clearfix">
+              <li><a href="#"><img src="img/sample1.jpg"></a></li>
+              <li><a href="#"><img src="img/sample2.jpg"></a></li>
+              <li><a href="#"><img src="img/sample3.jpg"></a></li>
+              <li><a href="#"><img src="img/sample4.jpg"></a></li>
+            </ul>
+            <a href="#" class="btn_yellow">Закажите столик</a>
+          </div>
+        </div> <!-- Welcome end -->
+
+
+
+      <div class="row news_container">
         <div class="col-lg-12">
           <div class="title"><h1><span>НОВОСТИ</span></h1></div>
           <ul class="news">
@@ -150,10 +184,9 @@
           </ul>
           <a href="#" class="pull-right btn_yellow"><span>Все новости</span> >></a>
         </div>
-      </div>
-    </div>
-    <div class="container actions_container">
-      <div class="row">
+      </div><!-- News end -->
+
+      <div class="row actions_container">
         <div class="col-lg-12">
           <div class="title"><h1><span>НОВОСТИ</span></h1></div>
           <ul class="actions">
@@ -187,8 +220,37 @@
           </ul>
           <a href="#" class="pull-right btn_yellow"><span>Все новости</span> >></a>
         </div>
-      </div>
+      </div><!-- Actions end -->
+
+      <div class="row contacts">
+        <div class="col-lg-12"><div class="title"><h1><span>КОНТАКТЫ</span></h1></div></div>
+        <div class="col-lg-8"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15739.523022488522!2d100.05508785665265!3d9.519088567916397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMzAnMzkuMSJOIDEwMMKwMDMnMTcuNCJF!5e0!3m2!1sru!2sua!4v1421250482754" frameborder="0" style="border:0"></iframe></div>
+        <div class="col-lg-4">
+          <div class="logo_container"><img src="img/logo.png" alt=""></div>
+          <p>Shanson Samui CO.LTD</p>
+          <p>Наш адрес:</p>
+          <p>Soi Had Chaweng 1 80/6 Bophut, Koh Samui, Suratthani, 84320</p>
+          <p>Координаты ресторана на картах Google 9.510873,100.054845</p>
+          <p class="phone">Тел.: +66907069528</p>
+          <p><a href="#">atlantisamui@gmail.com</a></p>
+          <p>Время работы: </p>
+          <p>Пн-вс 12:00 – 00:00 (до последнего клиента)</p>
+          <p>Мероприятия:</p>
+          <p>четверг 21:00 – НеВинные четверги</p>
+          <p>пятница 19:00 – Ретро-вечеринка</p>
+          <p>суббота</p>
+          <p>воскресение</p>
+        </div>
+      </div><!-- Contacts end -->
+
+      <div class="row footer">
+        <div class="col-lg-12">
+          <p>© 2015 Shanson Samui CO.LTD</p>
+        </div>
+      </div><!-- Footer end -->
     </div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
