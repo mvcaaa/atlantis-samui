@@ -116,7 +116,58 @@ div.title h1 span {
 	background: #323232;
 	color: #fff;
 }
-
+/* slider
+-------------------------------------------------------------------------------*/
+.slider_container .slider {
+	padding: 12px 15px;
+	border: 1px solid #e5e2d9;
+	background: white;
+	position: relative;
+	margin-top: 10px;
+}
+.slider_container .carousel-inner .item img {
+	width: 100%;
+}
+.slider_container .carousel-control {
+	height: 70px;
+	width: 80px;
+	background: url(../img/arrows_slider.png) no-repeat;
+	top: 100%;
+	margin-top: -76px;
+	opacity: 1;
+}
+.slider_container .left {
+	background-position: 0px -5px;
+	left: 1%;
+}
+.slider_container .right {
+	background-position: -81px -5px;
+	right: 1%;
+}
+.slider_container .carousel-indicators {
+	bottom: -5px;
+}
+.slider_container .carousel-indicators li {
+	margin: 0;
+	margin-left: 3px;
+	margin-right: 2px;
+}
+.slider_container .slider .shadow {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+}
+.slider_container .slider ol li {
+	width: 14px;
+	height: 14px;
+	background: white;
+	border-radius: 50%;
+	border: none;
+}
+.slider_container .slider ol li.active {
+	background: #7d7a70;
+}
 /* welcome_container
 ------------------------------------------------------------------------------*/
 .welcome_container {
@@ -142,51 +193,6 @@ div.title h1 span {
 }
 .welcome_container .order .btn_yellow {
 	float: right;
-}
-/* slider
--------------------------------------------------------------------------------*/
-.slider_container .slider {
-	padding: 12px 15px;
-	border: 1px solid #e5e2d9;
-	background: white;
-	position: relative;
-	margin-top: 10px;
-}
-.slider_container .carousel-inner .item img {
-	width: 100%;
-}
-.slider_container .carousel-control {
-	height: 82px;
-	width: 81px;
-	background: url(../img/arrows_slider.png) no-repeat;
-	top: 80%;
-	opacity: 1;
-}
-.slider_container .left {
-	background-position: 0px 0px;
-	left: 1%;
-}
-.slider_container .right {
-	background-position: -81px 0px;
-	right: 1%;
-}
-.slider_container .carousel-indicators {
-	bottom: -5px;
-}
-.slider_container .slider .shadow {
-	position: absolute;
-	bottom: -60px;
-	width: 100%;
-}
-.slider_container .slider ol li {
-	width: 14px;
-	height: 14px;
-	background: white;
-	border-radius: 50%;
-	border: none;
-}
-.slider_container .slider ol li.active {
-	background: #7d7a70;
 }
 /* News/Actions
 ------------------------------------------------------------------------------------ */
@@ -292,6 +298,67 @@ div.title h1 span {
 }
 .menu_container .first_level {
 	margin-top: 25px;
+}
+/* kids_container
+-------------------------------------------------------------------------------------*/
+.kids_container {
+	background: url(../img/bg_kids.jpg) no-repeat;
+	background-size: cover;
+	padding: 50px 0 105px;
+	margin-top: 70px;
+}
+.kids_container h1 {
+	text-align: center;
+	color: white;
+	margin-bottom: 50px;
+}
+.kids_container ul li {
+	width: 240px;
+	height: 240px;
+	display: inline-block;
+	margin-right: 9px;
+	margin-bottom: 15px;
+}
+.kids_container ul li:nth-child(4n) {
+	margin-right: 0px;
+}
+.kids_container ul li a {
+	display: block;
+	position: relative;
+}
+.kids_container ul li a #first_cont {
+	position: absolute;
+	bottom: 15px;
+	width: 240px;
+}
+.kids_container ul li a #first_cont h2 {
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+.kids_container ul li a #second_cont {
+	position: absolute;
+	height: 240px;
+	width: 240px;
+	top: 0px;
+	left: 0px;
+	padding: 25px 20px 0px 15px;
+	background: rgba(0, 0, 0, .5);
+	display: none;
+}
+.kids_container ul li a #second_cont h2 {
+	margin-bottom: 5px;
+	text-align: center;
+}
+.kids_container ul li a #second_cont p {
+	font-size: 13px;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+.kids_container ul li a:hover #second_cont {
+	display: block;
+}
+.kids_container ul li a:hover #first_cont {
+	display: none;
 }
 /* Gallery
 ------------------------------------------------------------------------------------ */
@@ -404,67 +471,57 @@ div.title h1 span {
 .contacts p a:hover {
 	border-bottom: none;
 }
-/* kids_container
--------------------------------------------------------------------------------------*/
-.kids_container {
-	background: url(../img/bg_kids.jpg) no-repeat;
-	background-size: cover;
-	padding: 50px 0 105px;
-	margin-top: 70px;
+
+
+/* Contacts
+------------------------------------------------------------------------------------ */
+.contacts {
+	margin-top: 40px;
+	padding-bottom: 75px;
 }
-.kids_container h1 {
-	text-align: center;
-	color: white;
-	margin-bottom: 50px;
+.contacts .title {
+	margin-bottom: 30px;
 }
-.kids_container ul li {
-	width: 240px;
-	height: 240px;
-	display: inline-block;
-	margin-right: 9px;
-	margin-bottom: 15px;
+.contacts iframe {
+	width: 100%;
+	height: 600px;
 }
-.kids_container ul li:nth-child(4n) {
-	margin-right: 0px;
-}
-.kids_container ul li a {
-	display: block;
-	position: relative;
-}
-.kids_container ul li a #first_cont {
-	position: absolute;
-	bottom: 15px;
-	width: 240px;
-}
-.kids_container ul li a #first_cont h2 {
-	text-align: center;
-	text-shadow: 1px 1px 2px black, 0 0 1em black;
-}
-.kids_container ul li a #second_cont {
-	position: absolute;
-	height: 240px;
-	width: 240px;
-	top: 0px;
-	left: 0px;
-	padding: 25px 20px 0px 15px;
-	background: rgba(0, 0, 0, .5);
-	display: none;
-}
-.kids_container ul li a #second_cont h2 {
-	margin-bottom: 5px;
+.contacts .logo_container {
 	text-align: center;
 }
-.kids_container ul li a #second_cont p {
-	font-size: 13px;
-	color: white;
-	text-shadow: 1px 1px 2px black, 0 0 1em black;
+.contacts .logo_container img {
+	width: 230px;
 }
-.kids_container ul li a:hover #second_cont {
-	display: block;
+.contacts p {
+	margin-top: 15px;
+	line-height: 18px;
+	color: #2f2f2f;
 }
-.kids_container ul li a:hover #first_cont {
-	display: none;
+.contacts p.phone {
+	font-weight: bold;
 }
+.contacts p a {
+	font-style: italic;
+	font-size: 14px;
+	color: #2f2f2f;
+	text-decoration: none;
+	border-bottom: 1px solid #2f2f2f;
+}
+.contacts p a:hover {
+	border-bottom: none;
+}
+.contacts #map-canvas {
+	width: 100%;
+	height: 600px;
+}
+.contacts #bullet {
+	width: 200px;
+	overflow-y: hidden;
+}
+.contacts #bullet p {
+	margin: 0;
+}
+
 /* Footer
 ------------------------------------------------------------------------------------ */
 .footer {
