@@ -13,7 +13,7 @@ p, a, ul, li, input, label, button, textarea {
 }
 p {
 	font-size: 15px;
-
+	font-family: 'minionpro-regular';
 }
 a.btn_yellow {
 	border: none;
@@ -23,7 +23,7 @@ a.btn_yellow {
 	background: #c39300;
 	font-size: 16px;
 	font-style: italic;
-	padding: 8px 30px 9px 30px;
+	padding: 5px 25px 7px 25px;
 	text-decoration: underline;
 }
 a.btn_yellow:hover {
@@ -31,11 +31,15 @@ a.btn_yellow:hover {
 }
 /* slider
 -------------------------------------------------------------------------------*/
+.slider_container {
+	margin-bottom: 40px;
+}
 .slider_container .slider {
-	padding: 12px 15px;
+	padding: 12px 12px 2px;
 	border: 1px solid #e5e2d9;
 	background: white;
 	position: relative;
+	border-bottom: none;
 }
 .carousel-inner .item img {
 	width: 100%;
@@ -74,7 +78,8 @@ a.btn_yellow:hover {
 	background: #7d7a70;
 }
 
-
+/* title
+----------------------------------------------------------------*/
 div.title {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -149,11 +154,28 @@ div.title h1 span {
 	background: #323232;
 	color: #fff;
 }
-/* media
------------------------------------------------------------------------------*/
-/*@media screen and (max-width: 991px) {
-    .slider_container .carousel-control {
-    	height: 40px;
-    	width: 40px;
-    }
-}*/
+/* welcome_container
+------------------------------------------------------------------------------*/
+.welcome_container {
+	padding-bottom: 10px;
+}
+.welcome_container .title {
+	margin-bottom: 45px;
+}
+.welcome_container .welcome_content p {
+	margin-bottom: 10px;
+}
+.welcome_container .welcome_content p span {
+	font-family: 'minionpro-bold';
+}
+.welcome_container .order ul li {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.welcome_container .order ul li:nth-child(2n) {
+	margin-right: 0px;
+}
+.welcome_container .order .btn_yellow {
+	float: right;
+}
