@@ -7,6 +7,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
 p, a, ul, li, input, label, button, textarea {
     list-style: none;
     margin: 0;
@@ -335,7 +340,66 @@ div.title h1 span {
 .contacts p a:hover {
 	border-bottom: none;
 }
-
+/* kids_container
+-------------------------------------------------------------------------------------*/
+.kids_container {
+	background: url(../img/bg_kids.jpg) no-repeat;
+	background-size: cover;
+	padding: 50px 0 105px;
+}
+.kids_container h1 {
+	text-align: center;
+	color: white;
+	margin-bottom: 50px;
+}
+.kids_container ul li {
+	width: 240px;
+	height: 240px;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+.kids_container ul li:nth-child(4n) {
+	margin-right: 0px;
+}
+.kids_container ul li a {
+	display: block;
+	position: relative;
+}
+.kids_container ul li a #first_cont {
+	position: absolute;
+	bottom: 15px;
+	width: 240px;
+}
+.kids_container ul li a #first_cont h2 {
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+.kids_container ul li a #second_cont {
+	position: absolute;
+	height: 240px;
+	width: 240px;
+	top: 0px;
+	left: 0px;
+	padding: 25px 20px 0px 15px;
+	background: rgba(0, 0, 0, .3);
+	display: none;
+}
+.kids_container ul li a #second_cont h2 {
+	margin-bottom: 5px;
+	text-align: center;
+}
+.kids_container ul li a #second_cont p {
+	font-size: 13px;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+.kids_container ul li a:hover #second_cont {
+	display: block;
+}
+.kids_container ul li a:hover #first_cont {
+	display: none;
+}
 /* Footer
 ------------------------------------------------------------------------------------ */
 .footer {
