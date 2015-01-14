@@ -1,5 +1,6 @@
 body {
 	background: #F6F4E8;
+	font-family: 'Arial';
 }
 
 
@@ -46,7 +47,7 @@ a.btn_yellow:hover {
 	background: url(../img/arrows_slider.png) no-repeat;
 	top: 80%;
 }
-.slider_container .left {	
+.slider_container .left {
 	background-position: 0px 0px;
 	left: 5%;
 }
@@ -136,3 +137,63 @@ div.title h1 span {
 	background: #323232;
 	color: #fff;
 }
+
+/* Contacts
+------------------------------------------------------------------------------------ */
+.contacts {
+	margin-top: 40px;
+	padding-bottom: 75px;
+}
+.contacts .title {
+	margin-bottom: 30px;
+}
+.contacts iframe {
+	width: 100%;
+	height: 600px;
+}
+.contacts .logo_container {
+	text-align: center;
+}
+.contacts .logo_container img {
+	width: 230px;
+}
+.contacts p {
+	margin-top: 15px;
+	line-height: 18px;
+	color: #2f2f2f;
+}
+.contacts p.phone {
+	font-weight: bold;
+}
+.contacts p a {
+	font-style: italic;
+	font-size: 14px;
+	color: #2f2f2f;
+	text-decoration: none;
+	border-bottom: 1px solid #2f2f2f;
+}
+.contacts p a:hover {
+	border-bottom: none;
+}
+
+/* Footer
+------------------------------------------------------------------------------------ */
+.footer {
+	padding: 50px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
