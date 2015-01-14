@@ -14,7 +14,6 @@ p, a, ul, li, input, label, button, textarea {
 }
 p {
 	font-size: 15px;
-	font-family: 'minionpro-regular';
 }
 a.btn_yellow {
 	border: none;
@@ -166,7 +165,7 @@ div.title h1 span {
 	margin-bottom: 10px;
 }
 .welcome_container .welcome_content p span {
-	font-family: 'minionpro-bold';
+	font-weight: bold;
 }
 .welcome_container .order ul li {
 	float: left;
