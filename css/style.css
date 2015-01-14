@@ -45,14 +45,15 @@ a.btn_yellow:hover {
 	width: 81px;
 	background: url(../img/arrows_slider.png) no-repeat;
 	top: 80%;
+	opacity: 1;
 }
 .slider_container .left {	
 	background-position: 0px 0px;
-	left: 5%;
+	left: 1%;
 }
 .slider_container .right {
-	background-position: 81px 0px;
-
+	background-position: -81px 0px;
+	right: 1%;
 }
 .slider_container .carousel-indicators {
 	bottom: -5px;
@@ -62,6 +63,18 @@ a.btn_yellow:hover {
 	bottom: -60px;
 	width: 100%;
 }
+.slider_container .slider ol li {
+	width: 14px;
+	height: 14px;
+	background: white;
+	border-radius: 50%;
+	border: none;
+}
+.slider_container .slider ol li.active {
+	background: #7d7a70;
+}
+
+
 div.title {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -136,3 +149,11 @@ div.title h1 span {
 	background: #323232;
 	color: #fff;
 }
+/* media
+-----------------------------------------------------------------------------*/
+/*@media screen and (max-width: 991px) {
+    .slider_container .carousel-control {
+    	height: 40px;
+    	width: 40px;
+    }
+}*/
