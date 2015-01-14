@@ -1,1 +1,13 @@
-sss
+body {
+	background: #F6F4E8;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+p, a, ul, li, input, label, button, textarea {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
