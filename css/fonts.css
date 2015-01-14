@@ -6,3 +6,19 @@
          url('../fonts/ArialNarrow Bold.ttf') format('truetype'),
          url('../fonts/ArialNarrow Bold.otf') format('otf');
 }
+@font-face {
+    font-family: 'minionpro-regular';
+    src: url('../fonts/minionpro-regular.eot');
+    src: url('../fonts/minionpro-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/minionpro-regular.woff') format('woff'),
+         url('../fonts/minionpro-regular.ttf') format('truetype'),
+         url('../fonts/minionpro-regular.otf') format('otf');
+}
+@font-face {
+    font-family: 'minionpro-bold';
+    src: url('../fonts/minionpro-bold.eot');
+    src: url('../fonts/minionpro-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/minionpro-bold.woff') format('woff'),
+         url('../fonts/minionpro-bold.ttf') format('truetype'),
+         url('../fonts/minionpro-bold.otf') format('otf');
+}

@@ -1,6 +1,6 @@
 body {
 	background: #F6F4E8;
-	font-family: 'Arial';
+	font-family: "Arial";
 }
 
 
@@ -14,7 +14,6 @@ p, a, ul, li, input, label, button, textarea {
 }
 p {
 	font-size: 15px;
-
 }
 a.btn_yellow {
 	border: none;
@@ -24,7 +23,7 @@ a.btn_yellow {
 	background: #c39300;
 	font-size: 16px;
 	font-style: italic;
-	padding: 8px 30px 9px 30px;
+	padding: 5px 25px 7px 25px;
 	text-decoration: underline;
 }
 a.btn_yellow:hover {
@@ -32,11 +31,15 @@ a.btn_yellow:hover {
 }
 /* slider
 -------------------------------------------------------------------------------*/
+.slider_container {
+	margin-bottom: 40px;
+}
 .slider_container .slider {
-	padding: 12px 15px;
+	padding: 12px 12px 2px;
 	border: 1px solid #e5e2d9;
 	background: white;
 	position: relative;
+	border-bottom: none;
 }
 .carousel-inner .item img {
 	width: 100%;
@@ -46,14 +49,15 @@ a.btn_yellow:hover {
 	width: 81px;
 	background: url(../img/arrows_slider.png) no-repeat;
 	top: 80%;
+	opacity: 1;
 }
 .slider_container .left {
 	background-position: 0px 0px;
-	left: 5%;
+	left: 1%;
 }
 .slider_container .right {
-	background-position: 81px 0px;
-
+	background-position: -81px 0px;
+	right: 1%;
 }
 .slider_container .carousel-indicators {
 	bottom: -5px;
@@ -63,6 +67,19 @@ a.btn_yellow:hover {
 	bottom: -60px;
 	width: 100%;
 }
+.slider_container .slider ol li {
+	width: 14px;
+	height: 14px;
+	background: white;
+	border-radius: 50%;
+	border: none;
+}
+.slider_container .slider ol li.active {
+	background: #7d7a70;
+}
+
+/* title
+----------------------------------------------------------------*/
 div.title {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -127,7 +144,6 @@ div.title h1 span {
 	color: #101010;
 	text-transform: uppercase;
 	font-size: 15px;
-	font-family: Arial;
 	font-weight: bold;
 }
 .header_container .navbar-nav>li.active>a {
@@ -137,6 +153,139 @@ div.title h1 span {
 	background: #323232;
 	color: #fff;
 }
+
+
+/* welcome_container
+------------------------------------------------------------------------------*/
+.welcome_container {
+	padding-bottom: 10px;
+}
+.welcome_container .title {
+	margin-bottom: 45px;
+}
+.welcome_container .welcome_content p {
+	margin-bottom: 10px;
+}
+.welcome_container .welcome_content p span {
+	font-family: 'minionpro-bold';
+}
+.welcome_container .order ul li {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.welcome_container .order ul li:nth-child(2n) {
+	margin-right: 0px;
+}
+.welcome_container .order .btn_yellow {
+	float: right;
+}
+/* slider
+-------------------------------------------------------------------------------*/
+.slider_container .slider {
+	padding: 12px 15px;
+	border: 1px solid #e5e2d9;
+	background: white;
+	position: relative;
+}
+.carousel-inner .item img {
+	width: 100%;
+}
+.slider_container .carousel-control {
+	height: 82px;
+	width: 81px;
+	background: url(../img/arrows_slider.png) no-repeat;
+	top: 80%;
+	opacity: 1;
+}
+.slider_container .left {
+	background-position: 0px 0px;
+	left: 1%;
+}
+.slider_container .right {
+	background-position: -81px 0px;
+	right: 1%;
+}
+.slider_container .carousel-indicators {
+	bottom: -5px;
+}
+.slider_container .slider .shadow {
+	position: absolute;
+	bottom: -60px;
+	width: 100%;
+}
+.slider_container .slider ol li {
+	width: 14px;
+	height: 14px;
+	background: white;
+	border-radius: 50%;
+	border: none;
+}
+.slider_container .slider ol li.active {
+	background: #7d7a70;
+}
+/* News/Actions
+------------------------------------------------------------------------------------ */
+.news_container ul,
+.actions_container ul {
+	margin-top: 40px;
+}
+.news_container li,
+.actions_container li {
+	width: 288px;
+	float: left;
+	margin-right: 68px;
+}
+.news_container li:nth-child(3n),
+.actions_container li:nth-child(3n) {
+	margin-right: 0;
+}
+.news_container li .img img ,
+.actions_container li .img img {
+	width: 100%;
+	height: 360px;
+}
+.news_container li h2,
+.actions_container li h2 {
+	margin-top: 4px;
+}
+.news_container li h2 a,
+.actions_container li h2 a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #414242;
+	text-decoration: none;
+}
+.news_container li h2 a:hover,
+.actions_container li h2 a:hover {
+	border-bottom: 1px solid;
+	color: #4091bf;
+	box-shadow: 0 1px 0 0 #D3DDDE,
+				inset 0 -1px 0 0 #84AAC9;
+}
+.news_container li .text,
+.actions_container li .text {
+	margin-top: 12px;
+	color: #4e4e4e;
+	font-size: 14px;
+}
+.news_container li .text p {
+	display: inline;
+}
+.news_container li .text a {
+	float: right;
+	color: #3a79ae;
+	text-decoration: none;
+	font-style: italic;
+}
+.news_container li .text a span {
+	border-bottom: 1px solid;
+}
+.news_container li .text a:hover span {
+	border-bottom: none;
+}
+
+
 
 /* Contacts
 ------------------------------------------------------------------------------------ */
@@ -182,18 +331,3 @@ div.title h1 span {
 	padding: 50px 0;
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
