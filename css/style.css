@@ -30,39 +30,6 @@ a.btn_yellow {
 a.btn_yellow:hover {
 	opacity: 0.9;
 }
-/* slider
--------------------------------------------------------------------------------*/
-.slider_container .slider {
-	padding: 12px 15px;
-	border: 1px solid #e5e2d9;
-	background: white;
-	position: relative;
-}
-.carousel-inner .item img {
-	width: 100%;
-}
-.slider_container .carousel-control {
-	height: 82px;
-	width: 81px;
-	background: url(../img/arrows_slider.png) no-repeat;
-	top: 80%;
-}
-.slider_container .left {	
-	background-position: 0px 0px;
-	left: 5%;
-}
-.slider_container .right {
-	background-position: 81px 0px;
-
-}
-.slider_container .carousel-indicators {
-	bottom: -5px;
-}
-.slider_container .slider .shadow {
-	position: absolute;
-	bottom: -60px;
-	width: 100%;
-}
 div.title {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -135,6 +102,50 @@ div.title h1 span {
 .header_container .navbar-nav>li>a:hover {
 	background: #323232;
 	color: #fff;
+}
+/* slider
+-------------------------------------------------------------------------------*/
+.slider_container .slider {
+	padding: 12px 15px;
+	border: 1px solid #e5e2d9;
+	background: white;
+	position: relative;
+}
+.carousel-inner .item img {
+	width: 100%;
+}
+.slider_container .carousel-control {
+	height: 82px;
+	width: 81px;
+	background: url(../img/arrows_slider.png) no-repeat;
+	top: 80%;
+	opacity: 1;
+}
+.slider_container .left {	
+	background-position: 0px 0px;
+	left: 1%;
+}
+.slider_container .right {
+	background-position: -81px 0px;
+	right: 1%;
+}
+.slider_container .carousel-indicators {
+	bottom: -5px;
+}
+.slider_container .slider .shadow {
+	position: absolute;
+	bottom: -60px;
+	width: 100%;
+}
+.slider_container .slider ol li {
+	width: 14px;
+	height: 14px;
+	background: white;
+	border-radius: 50%;
+	border: none;
+}
+.slider_container .slider ol li.active {
+	background: #7d7a70;
 }
 /* News/Actions
 ------------------------------------------------------------------------------------ */
