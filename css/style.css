@@ -24,11 +24,17 @@ a.btn_yellow {
 	background: #c39300;
 	font-size: 16px;
 	font-style: italic;
-	padding: 8px 30px 9px 30px;
-	text-decoration: underline;
+	padding: 5px 30px 8px 30px;
 }
 a.btn_yellow:hover {
-	opacity: 0.9;
+	text-decoration: none;
+	opacity: .9;
+}
+a.btn_yellow span {
+	border-bottom: 1px solid;
+}
+a.btn_yellow:hover span {
+	border: none;
 }
 div.title {
 	padding-left: 25px;
@@ -149,6 +155,10 @@ div.title h1 span {
 }
 /* News/Actions
 ------------------------------------------------------------------------------------ */
+.news_container,
+.actions_container {
+	margin-top: 50px;
+}
 .news_container ul,
 .actions_container ul {
 	margin-top: 40px;
@@ -206,4 +216,8 @@ div.title h1 span {
 }
 .news_container li .text a:hover span {
 	border-bottom: none;
+}
+.news_container .btn_yellow,
+.actions_container .btn_yellow {
+	margin-top: 20px;
 }
