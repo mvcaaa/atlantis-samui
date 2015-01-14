@@ -11,8 +11,23 @@ p, a, ul, li, input, label, button, textarea {
     margin: 0;
     padding: 0;
 }
-
-
+div.title {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+}
+div.title h1 {
+	color: #c39300;
+	font-family: 'ArialNarrow-Bold';
+	font-size: 40px;
+	background: url(../img/title_line.jpg) repeat-x 50%;
+}
+div.title h1 span {
+	background: #F6F4E8;
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px;
+}
 /* Header
 ------------------------------------------------------------------------------------ */
 .header_container {
