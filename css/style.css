@@ -40,7 +40,8 @@ a.btn_yellow span {
 a.btn_yellow:hover span {
 	border: none;
 }
-/* title
+
+/* Tittle
 ----------------------------------------------------------------*/
 div.title {
 	padding-left: 25px;
@@ -437,45 +438,6 @@ div.title h1 span {
 /* Contacts
 ------------------------------------------------------------------------------------ */
 .contacts {
-	margin-top: 60px;
-	padding-bottom: 75px;
-}
-.contacts .title {
-	margin-bottom: 30px;
-}
-.contacts iframe {
-	width: 100%;
-	height: 600px;
-}
-.contacts .logo_container {
-	text-align: center;
-}
-.contacts .logo_container img {
-	width: 230px;
-}
-.contacts p {
-	margin-top: 15px;
-	line-height: 18px;
-	color: #2f2f2f;
-}
-.contacts p.phone {
-	font-weight: bold;
-}
-.contacts p a {
-	font-style: italic;
-	font-size: 14px;
-	color: #2f2f2f;
-	text-decoration: none;
-	border-bottom: 1px solid #2f2f2f;
-}
-.contacts p a:hover {
-	border-bottom: none;
-}
-
-
-/* Contacts
------------------------------------------------------------------------------------- */
-.contacts {
 	margin-top: 40px;
 	padding-bottom: 75px;
 }
@@ -521,7 +483,6 @@ div.title h1 span {
 .contacts #bullet p {
 	margin: 0;
 }
-
 /* Footer
 ------------------------------------------------------------------------------------ */
 .footer {
