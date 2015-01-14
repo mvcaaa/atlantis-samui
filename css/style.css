@@ -11,3 +11,54 @@ p, a, ul, li, input, label, button, textarea {
     margin: 0;
     padding: 0;
 }
+p {
+	font-size: 15px;
+
+}
+a.btn_yellow {
+	border: none;
+	outline: none;
+	color: white;
+	font-family: "Arial";
+	background: #c39300;
+	font-size: 16px;
+	font-style: italic;
+	padding: 8px 30px 9px 30px;
+	text-decoration: underline;
+}
+a.btn_yellow:hover {
+	opacity: 0.9;
+}
+/* slider
+-------------------------------------------------------------------------------*/
+.slider_container .slider {
+	padding: 12px 15px;
+	border: 1px solid #e5e2d9;
+	background: white;
+	position: relative;
+}
+.carousel-inner .item img {
+	width: 100%;
+}
+.slider_container .carousel-control {
+	height: 82px;
+	width: 81px;
+	background: url(../img/arrows_slider.png) no-repeat;
+	top: 80%;
+}
+.slider_container .left {	
+	background-position: 0px 0px;
+	left: 5%;
+}
+.slider_container .right {
+	background-position: 81px 0px;
+
+}
+.slider_container .carousel-indicators {
+	bottom: -5px;
+}
+.slider_container .slider .shadow {
+	position: absolute;
+	bottom: -60px;
+	width: 100%;
+}
