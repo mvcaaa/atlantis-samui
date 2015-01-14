@@ -62,3 +62,77 @@ a.btn_yellow:hover {
 	bottom: -60px;
 	width: 100%;
 }
+div.title {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+}
+div.title h1 {
+	color: #c39300;
+	font-family: 'ArialNarrow-Bold';
+	font-size: 40px;
+	background: url(../img/title_line.jpg) repeat-x 50%;
+}
+div.title h1 span {
+	background: #F6F4E8;
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+/* Header
+------------------------------------------------------------------------------------ */
+.header_container {
+	padding-top: 12px;
+}
+.header_container .language a {
+	margin-right: 2px;
+}
+.header_container .logo {
+	text-align: center;
+}
+.header_container .logo img {
+	margin-top: -27px;
+}
+.header_container .left_text {
+	text-align: right;
+}
+.header_container .left_text,
+.header_container .right_text {
+	font-family: 'ArialNarrow-Bold';
+	font-size: 11px;
+	color: #373737;
+	letter-spacing: 4px;
+	line-height: 22px;
+	padding-top: 40px;
+}
+.header_container .navbar {
+	min-height: auto;
+	margin-bottom: 0;
+	border: none;
+	margin-top: 15px;
+}
+.header_container .navbar-nav {
+	width: 100%;
+	text-align: center;
+}
+.header_container .navbar-nav>li {
+	float: none;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.header_container .navbar-nav>li>a {
+	padding: 2px 15px 1px 15px;
+	color: #101010;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.header_container .navbar-nav>li.active>a {
+	color: #c39300
+}
+.header_container .navbar-nav>li>a:hover {
+	background: #323232;
+	color: #fff;
+}
